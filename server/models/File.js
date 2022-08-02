@@ -6,4 +6,4 @@ const fileSchema = new mongoose.Schema({
     size: {type: Number, required: true},
 });
 
-module.exports = mongoose.model("post", fileSchema);
+module.exports = mongoose.model("fileSchema", fileSchema);

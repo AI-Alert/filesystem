@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 5000
 const app = express();
 
 dbConnect();
-app.use(express.static('files'));
 app.use(express.json());
 app.use('/api', router);
 
